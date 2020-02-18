@@ -1,0 +1,101 @@
+body{
+   
+    margin:0px;
+    padding:0px;
+}
+    
+#main{
+    background-color: antiquewhite;
+    padding:0px;
+    margin:0px;
+    position: relative;
+}
+label{
+    width: 115px;;
+    display: inline-block;
+}
+input{
+    width: 60%;
+}
+#container{
+    padding:10px;
+    margin:10px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#form{
+    padding:10px;
+    line-height: 1.8em; 
+}
+#submit{
+   color: orange;
+   position: relative;
+   left: 85%;
+   width: fit-content;
+}
+#h1{
+    margin:0px;
+    padding-top:10px;
+    color: orangered;
+    text-align: center;
+}
+#h2{
+    margin:5px;
+    font-size: 16px;
+    color: orange;
+    text-align: center;
+}
+.newDiv{
+    position:relative;
+    margin:5px;
+    
+}
+.topMessage, .bottomMessage{
+    position: absolute;
+    transform: translate(-50%); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   position: absolute;
+    text-shadow: blue 3px 3px;
+    font-size: 40px;
+    color:white;
+    
+}
+.topMessage{
+    top:10%;
+    left: 50%;
+}
+
+.bottomMessage{
+    top:70%;
+    left:50%;
+}
+img{
+    
+    height:300px;
+    width: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgb(37, 31, 31);
+  }
+
+  .overlayText {
+    color: white;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity:0;
+  }
+  
+
+ 
+
